@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.input-all{
+    display: flex;
+    width: 500px;
+    height:50px;
+}
+
+.input-button{
+    margin-left: 10px;
+}
+
+.btn{
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+}
+.notes{
+    width: 200px;
+    height: 200px;
+    border: 1px dashed grey;
+    color: violet;
+    overflow-y: scroll;
+}
+
+.classLi {
+    cursor: pointer;
+    user-select: none;
+}
+
+.cross-out-notation{
+    text-decoration: line-through;
+}
+
+
+/****************************************************/
+                       /*logo*/
+.logo{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    background: linear-gradient(270deg, #e2080f, #1208e2);
+    font: 20px Helvetica;
+    text-transform: uppercase;
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+    line-height:2.3em;
+}
